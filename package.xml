@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>create2_description</name>
+  <version>1.0.0</version>
+  <description>iRobot Create 2 robot ROS2 descrition.</description>
+
+  <maintainer email="eborghiorue@frba.utn.edu.ar">Emiliano J. Borghi Orue</maintainer>
+  <license>Apache License 2.0</license>
+  <url type="website">http://github.com/RoboticaUtnFrba</url>
+  <url type="bugtracker">https://github.com/RoboticaUtnFrba/create2_description/issues</url>
+  <url type="repository">https://github.com/RoboticaUtnFrba/create2_description</url>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>webots_ros2_core</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
